@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(6, 6, 6);    
+}
+/*borde guia*/
+.borde{
+    border: 2px solid aquamarine;
+}
+
+/*Selector universal*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Degradado fondo*/
+img{
+    mask-image: linear-gradient(black 80%), transparent;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+.texto{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.abaut{
+    text-align: color white;
+}
+
+.lila{
+    color: #423ba6;
+}
+
