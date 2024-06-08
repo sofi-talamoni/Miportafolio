@@ -1,37 +1,49 @@
-body{
-    background-color: rgb(6, 6, 6);    
-}
-/*borde guia*/
-.borde{
-    border: 2px solid aquamarine;
-}
+/* Fuente normal
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
+/*Fuente negrita*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@453&display=swap');
 
 /*Selector universal*/
 *{
     padding: 0px;
     margin: 0px;
+    color: white;
 }
 
-/*Degradado fondo*/
-img{
-    mask-image: linear-gradient(black 80%), transparent;
+.font{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.font2{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 453;
+    font-style: normal;
+}
+
+
+
+
+/*borde guia*/
+.borde{
+    border: 2px solid aquamarine;
+}
+
+/*Body color fondo*/
+body{
+    background-color: rgb(6, 6, 6);    
+}
+
+/*Color objetos*/
+.lila{
+    color: #423ba6;
 }
 
 header{
     text-align: center;
     color: white;
-}
-
-.texto{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.abaut{
-    text-align: color white;
-}
-
-.lila{
-    color: #423ba6;
 }
 
