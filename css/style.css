@@ -24,9 +24,6 @@
     font-style: normal;
 }
 
-
-
-
 /*borde guia*/
 .borde{
     border: 2px solid aquamarine;
@@ -43,7 +40,12 @@ body{
 }
 
 header{
-    text-align: center;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80vh;
 }
 
+section{
+    display: flex;
+}
