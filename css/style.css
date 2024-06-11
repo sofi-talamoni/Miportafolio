@@ -1,5 +1,6 @@
-/* Fuente normal
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
+/* Fuente normal */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 /*Fuente negrita*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@453&display=swap');
 
@@ -17,12 +18,12 @@
     font-style: normal;
 }
 
-/* .font2{
+.font2{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 453;
     font-style: normal;
-} */
+}
 
 /*borde guia*/
 .borde{
@@ -46,15 +47,6 @@ header{
     padding-left: 80vh;
 }
 
-
-/* .hero{
-    background-image: url('hero.png');
-    justify-content: left;
-    background-repeat: no-repeat;
-    background-size: 300%;
-    background-position: 0% 70%;
-} */
-
 .dis{
     display: flex;
 }
@@ -62,12 +54,29 @@ header{
 .abaut{
     align-items: center;
     width: 100%;
+    justify-content: center;
+}
+
+.st{
+    padding-left: 10px;
 }
 
 .abautA{
-    align-content: center;
-
+        /* background-color:chartreuse; */
+    display: flex;
+    padding-block-end: 20px;
+    font-size: 5vh;
 }
+
+.abautB{
+    /* background-color: blue; */
+    font-size: 10vh;
+}
+
+.abautC{
+    font-size: 3vh;
+}
+
 
 .degradadoA{
     background: rgb(0,0,0);
@@ -78,3 +87,4 @@ header{
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(51,38,69,0.05084031903777131) 60%, rgba(187,141,255,0.1936974618949142) 100%); 
 }
+
