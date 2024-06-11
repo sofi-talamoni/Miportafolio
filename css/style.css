@@ -63,6 +63,15 @@ body{
     color: #423ba6;
 }
 
+.textovertical{
+    writing-mode: sideways-lr;
+    color: #423aa3;
+    font-size: 8vh;
+    padding-top: 30vh;
+    position: absolute;
+}
+
+
 /*Sobre el header*/
 header{
     color: white;
@@ -169,12 +178,24 @@ header{
 /*Sobre Proyecto*/
 
 .imgpro{
-    width: 90vh;
-    height: 60vh;
+    width: 80vh;
+    height: 50vh;
 }
 
 .margenh{
-    margin: 10vh;
+    margin: 15vh;
+}
+
+.titulopro{
+    text-align: left;
+    font-size: 3vh;
+}
+
+.textopro{
+    margin: 2vh;
+    margin-left: 0vh;
+    text-align: left;
+    font-size: 3vh;
 }
 
 
