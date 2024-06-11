@@ -4,12 +4,20 @@
 /*Fuente negrita*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@453&display=swap');
 
+/*Propiedades de la box-model*/
+
 /*Selector universal*/
 *{
     padding: 0px;
     margin: 0px;
     color: white;
 }
+
+.dis{
+    display: flex;
+}
+
+/*Inicio de Fuentes*/
 
 .font{
     font-family: "Quicksand", sans-serif;
@@ -25,21 +33,37 @@
     font-style: normal;
 }
 
+/*Fin de Fuentes*/
+
 /*borde guia*/
 .borde{
     border: 2px solid aquamarine;
 }
 
-/*Body color fondo*/
+/*Propiedades del fondo*/
 body{
     background-color: rgb(6, 6, 6);    
 }
+
+.degradadoA{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(51,38,69,0.05084031903777131) 60%, rgba(187,141,255,0.1936974618949142) 100%); 
+}
+
+.degradadoB{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(51,38,69,0.05084031903777131) 60%, rgba(187,141,255,0.1936974618949142) 100%); 
+}
+
+/*Fin de Propiedades del fondo*/
+
 
 /*Color objetos*/
 .lila{
     color: #423ba6;
 }
 
+/*Sobre el header*/
 header{
     color: white;
     display: flex;
@@ -47,9 +71,7 @@ header{
     padding-left: 80vh;
 }
 
-.dis{
-    display: flex;
-}
+/*Sobre el Sobre mí*/
 
 .abaut{
     align-items: center;
@@ -62,14 +84,12 @@ header{
 }
 
 .abautA{
-        /* background-color:chartreuse; */
     display: flex;
     padding-block-end: 20px;
     font-size: 5vh;
 }
 
 .abautB{
-    /* background-color: blue; */
     font-size: 10vh;
 }
 
@@ -77,14 +97,51 @@ header{
     font-size: 3vh;
 }
 
+/*Fin del sobre mí*/
 
-.degradadoA{
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(51,38,69,0.05084031903777131) 60%, rgba(187,141,255,0.1936974618949142) 100%); 
+/*Sobre Servicios*/
+.boxservicios{
+    justify-content: center;
+    margin: 10vh;
 }
 
-.degradadoB{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(51,38,69,0.05084031903777131) 60%, rgba(187,141,255,0.1936974618949142) 100%); 
+.iconservicios{
+    font-size: 12vh;
 }
 
+.miniboxservicios{
+    border: #423ba6 solid;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.dosbox{
+    justify-content: space-around;
+}
+
+.textoser{
+    font-size: 3vh;
+}
+
+.imgser{
+    border: #423ba6 solid;
+    border-radius: 3px;
+    width: 85vh;
+    height: 40vh;
+}
+
+.dosboxmp{
+    margin: 5vh;
+}
+
+
+/*Fin de Servicios*/
+
+/*Sobre Habilidades*/
+/*Fin de Habilidades*/
+
+/*Sobre Proyecto*/
+/*Fin de proyecto*/
+
+/*Sobre contacto*/
+/*Fin de contacto*/
