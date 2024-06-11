@@ -110,7 +110,6 @@ header{
 }
 
 .miniboxservicios{
-    border: #423ba6 solid;
     border-radius: 6px;
     text-align: center;
 }
@@ -134,13 +133,51 @@ header{
     margin: 5vh;
 }
 
+.color{
+    background-color: crimson;
+}
 
 /*Fin de Servicios*/
 
 /*Sobre Habilidades*/
+
+.duos{
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10vh;
+}
+
+
+.margen{
+    margin: 5vh;
+    border: #423ba6 solid 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Agrega una sombra al borde */
+    border-radius: 15px;
+    padding: 40px;
+    
+}
+
+.iconskills{
+    font-size: 8vh;
+
+}
+
+
 /*Fin de Habilidades*/
 
 /*Sobre Proyecto*/
+
+.imgpro{
+    width: 90vh;
+    height: 60vh;
+}
+
+.margenh{
+    margin: 10vh;
+}
+
+
 /*Fin de proyecto*/
 
 /*Sobre contacto*/
