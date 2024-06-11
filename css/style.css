@@ -17,12 +17,12 @@
     font-style: normal;
 }
 
-.font2{
+/* .font2{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 453;
     font-style: normal;
-}
+} */
 
 /*borde guia*/
 .borde{
@@ -46,6 +46,35 @@ header{
     padding-left: 80vh;
 }
 
-section{
+
+/* .hero{
+    background-image: url('hero.png');
+    justify-content: left;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: 0% 70%;
+} */
+
+.dis{
     display: flex;
+}
+
+.abaut{
+    align-items: center;
+    width: 100%;
+}
+
+.abautA{
+    align-content: center;
+
+}
+
+.degradadoA{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(51,38,69,0.05084031903777131) 60%, rgba(187,141,255,0.1936974618949142) 100%); 
+}
+
+.degradadoB{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(51,38,69,0.05084031903777131) 60%, rgba(187,141,255,0.1936974618949142) 100%); 
 }
