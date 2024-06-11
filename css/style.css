@@ -73,11 +73,21 @@ body{
 
 
 /*Sobre el header*/
+
+.hero{
+    width: 80vh;
+    mask-image: linear-gradient(black 80%, transparent);
+}
+
+
 header{
     color: white;
     display: flex;
     justify-content: space-around;
     padding-left: 80vh;
+    position: fixed;
+
+    /* width: 100%; */
 }
 
 /*Sobre el Sobre mí*/
@@ -140,6 +150,7 @@ header{
 
 .dosboxmp{
     margin: 5vh;
+    margin-left: 10vh;
 }
 
 .color{
