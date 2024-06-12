@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <title>Sofia Talamoni</title>
     <link rel="stylesheet" href="css\style.css">
 </head> 
@@ -282,19 +282,58 @@
 
     <!--Inicio Pie de página-->
     <footer class="borde font degradadoB" id="contacto">
-
         <h1 class="textovertical">Contacto</h1>
 
-        <form action="">
-            <input type="text" placeholder="Nombre">
-            <hr>
-            <input type="email" placeholder="Email">
-            <hr>
-            <input type="text" placeholder="Asunto">
-            <hr>
-            <input type="text" placeholder="Mensaje">
+        <section class="foot">
+            
+
+        <form>
+
+            <section class="inputs">
+
+                <section>
+                    <input type="text" name="name" placeholder="nombre">
+                    <hr>
+                </section>
+                
+                <section>
+                   <input type="email" name="gmail" placeholder="gmail"> 
+                   <hr>
+                </section>
+                
+                <section>
+                    <textarea name="asunto" cols="58" rows="1" placeholder="asunto"></textarea>
+                    <hr>
+                </section>
+                
+                <section>
+                    <textarea name="mensaje" cols="58" rows="1" placeholder="mensaje"></textarea>
+                    <hr>
+                </section>
+                
+
+                <section class="botones ">
+                    <section class="btnB btnM sepaboton">
+                        <input class="btn inputN" type="submit" value="Enviar">
+                        <i class="bi bi-send-arrow-down"></i>
+                    </section>
+                    
+                    <section class="btnB btnM">
+                        <input class="btn inputN" type="submit" value="Descargar CV">
+                        <i class="bi bi-download"></i>
+                    </section>
+                    
+                </section>
+                
+
+            </section>
+
+
         </form>
 
+        </section>
+
+       
     </footer>
     <!--fin del pie de página-->
 
