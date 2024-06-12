@@ -36,13 +36,14 @@
 /*Fin de Fuentes*/
 
 /*borde guia*/
-.borde{
+/* .borde{
     border: 2px solid aquamarine;
-}
+} */
 
 /*Propiedades del fondo*/
 body{
-    background-color: rgb(6, 6, 6);    
+    background-color: rgb(6, 6, 6)
+;    
 }
 
 .degradadoA{
@@ -77,18 +78,37 @@ body{
 .hero{
     width: 80vh;
     mask-image: linear-gradient(black 80%, transparent);
+    position: relative;
+}
+
+.fondohea{
+    padding-left: 50vh;
+    background-repeat: repeat-x;
+    display: flex;
 }
 
 
 header{
     color: white;
     display: flex;
-    justify-content: space-around;
-    padding-left: 80vh;
+    padding-left: 90vh;
+    margin-right: 60vh;
     position: fixed;
-
-    /* width: 100%; */
+    width: 50vh;
+    justify-content: right;
 }
+
+/*header*/
+
+.heaori{
+    justify-content: space-around;
+}
+
+.hea{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
 
 /*Sobre el Sobre mí*/
 
@@ -119,6 +139,13 @@ header{
 /*Fin del sobre mí*/
 
 /*Sobre Servicios*/
+
+.videoser{
+    border: solid #423aa3 1vh;
+    border-radius: 1vh;
+    margin-top: 0%;
+}
+
 .boxservicios{
     justify-content: center;
     margin: 10vh;
@@ -126,15 +153,16 @@ header{
 
 .iconservicios{
     font-size: 12vh;
+    padding-top: 10vh;
 }
 
 .miniboxservicios{
-    border-radius: 6px;
     text-align: center;
 }
 
 .dosbox{
     justify-content: space-around;
+    margin: 10h;
 }
 
 .textoser{
@@ -146,6 +174,7 @@ header{
     border-radius: 3px;
     width: 85vh;
     height: 40vh;
+
 }
 
 .dosboxmp{
@@ -157,6 +186,10 @@ header{
     background-color: crimson;
 }
 
+.top{
+    justify-content: center;
+    align-items: center;
+}
 /*Fin de Servicios*/
 
 /*Sobre Habilidades*/
@@ -195,6 +228,7 @@ header{
 
 .margenh{
     margin: 15vh;
+    margin-bottom: 0px;
 }
 
 .titulopro{
